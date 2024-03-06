@@ -1,0 +1,35 @@
+h1 {
+	max-width: 300px;
+	
+	span {
+		width: 100%;
+		background-image: linear-gradient(
+			to bottom,
+			#B69797 50%,
+			#B69797 50%,
+			#B69797 60%,
+			#B69797 60%,
+		);
+		background-size: 0 100%;
+		background-repeat: no-repeat;
+		transition: 250ms linear;
+	}
+
+	// Demo animation
+	span:hover {
+		background-size: 100% 100%;
+	}
+}
+
+// Make it pretty
+html { height: 100%;}
+body {
+	background: #c8c0d5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	color: #B69797;
+	font-family: 'Righteous', cursive;
+	font-size: 2rem;
+}
